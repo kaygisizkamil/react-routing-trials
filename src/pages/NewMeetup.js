@@ -16,7 +16,7 @@ function NewMeetup(){
             }
             /*in here i cannot redirect the url that i wanted to im using dom5 it stays at the same page*/
             ).then(()=> {
-                history.replace=('/');
+                history.push=('/');
           });
     };
     /*im sending that meetuphandler function to newmeetupform's props as an argument but inside 

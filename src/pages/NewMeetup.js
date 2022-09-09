@@ -15,9 +15,8 @@ function NewMeetup(){
                 }
             }
             /*in here i cannot redirect the url that i wanted to im using dom5 it stays at the same page*/
-            ).then(()=> {
-                history.push=('/');
-          });
+            ).then(()=>{})
+            .catch(err => {console.log(err)});
     };
     /*im sending that meetuphandler function to newmeetupform's props as an argument but inside 
     nmupform also meetUpData will be fetched by the prop.onAddMeetup*/

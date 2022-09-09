@@ -39,7 +39,7 @@ function AllMeetups(){
     for(const key in data){
       const meetup={
         id:key,
-        ...data[key]
+        ...data[key]/*spread operator copy all the key value pair into data*/
       };
       meetups.push(meetup);
     }
